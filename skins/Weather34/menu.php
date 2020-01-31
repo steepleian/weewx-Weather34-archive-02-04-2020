@@ -91,6 +91,11 @@
           <a href="./?units=uk"><weather34menumarkeryellow></weather34menumarkeryellow> UK (MPH) <topbarmetricc>&deg;C</topbarmetricc></a>
         </li>
       <?php }
+      if($units!='scandinavia') {?>
+        <li>
+          <a href="./?units=scandinavia"><weather34menumarkerred></weather34menumarkerred> M/S <topbarmetricc>&deg;C</topbarmetricc></a>
+        </li>
+      <?php }
       
       
       if ($extralinks == 'yes') {?>
