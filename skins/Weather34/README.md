@@ -15,7 +15,7 @@ This version is assembled as an install package and uses the WeeWX utility wee_e
 
 # What's New in this Version WX-UB40-IHVN-0.9.1
 
-1. A significant re-write for the generation of live and archive data processes which no longer relies on lookup tables. This completely seperates this WeeWX version of any reliance on tracking the Meteobridge-API on which the original version of this template was built. Weather34 for WeeWX will continue to track its MB counterpart aesthetically but it is purely a WeeWX power unit under the hood (bonnet to the Brits like me).
+1. A significant re-write for the generation of live and archive data processes which no longer relies on lookup tables. This completely separates this WeeWX version of any reliance on tracking the Meteobridge-API on which the original version of this template was built. Weather34 for WeeWX will continue to track its MB counterpart aesthetically but it is purely a WeeWX power unit under the hood (bonnet to the Brits like me).
 
 2. Live and archive data output now fixed to a METRICWX base, which must not be changed. This will not affect your main WeeWX settings or other skins that you may have installed.
 
