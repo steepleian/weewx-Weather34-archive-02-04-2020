@@ -4,7 +4,7 @@
 <html >
 <head>
   <meta charset="UTF-8">
-  <title>Weather34 HOME WEATHER STATION HARDWARE INFORMATION</title>
+  <title>Weather34 WEATHER STATION HARDWARE INFORMATION</title>
      
       <style>
 .container .title-card,button,p{font-family:Helvetica,Arial,sans-serif}body{padding:0;margin:0;box-sizing:border-box;background:0;height:300px;font-family:Arial, Helvetica, sans-serif;line-height:16px;}
@@ -13,7 +13,7 @@
 </style>
 </head>
 <body>
-<div class="weather34darkbrowser" url="Weather34 HOME WEATHER STATION HARDWARE INFORMATION"></div> 
+<div class="weather34darkbrowser" url="Weather34 WEATHER STATION HARDWARE INFORMATION"></div> 
 <div class="container">
 <img src="img/weather34hardware.jpg?ver=5" width="790px" height="490px" alt="weather34 hardware" title="weather34 hardware">
 </div>
