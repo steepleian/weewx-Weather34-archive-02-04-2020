@@ -94,7 +94,7 @@ var tzDifference=yourTimeZoneFrom*60+d.getTimezoneOffset();
 var offset=tzDifference*60*1000;
 function UpdateClock(){
   var e=new Date(new Date().getTime()+offset);
-  var c=e.getHours()<?php if ($clockformat == '12') { echo '% 12 || 12';} else { echo '% 24 || 24';}?>;
+  var c=e.getHours()<?php if ($clockformat == '12') { echo '% 12 || 12';} else { echo '% 24 || 00';}?>;
   <?php
   if($clockformat=='12') {
     echo "if(e.getHours()<12){amorpm=' am'}else{amorpm=' pm'}";
