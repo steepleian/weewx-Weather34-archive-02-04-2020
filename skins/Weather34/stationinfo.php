@@ -33,7 +33,7 @@
                     <ul>
                     
                         <li>
-                            <a href="https://www.davisinstruments.com/solution/vantage-pro2/" target="_blank" title="https://www.davisinstruments.com/solution/vantage-pro2/">
+                            <a href="">
                                 <div class="collection">
                                     <div class="collection:icon">
                                     
@@ -46,16 +46,16 @@
                                     
                                     
                                     <div class="collection:data">
-                                        <h3>Weather Station <blue> Davis</blue></h3>
+                                        <h3>Weather Station <blue> WeeWX</blue></h3>
                                         <span>Model:<?php echo $weatherhardware?></span>
-                                        <img src="img/<?php if($bottomlogo=='designedfordavisvue'){echo 'VANTAGEVUEVECTOR';}else if($bottomlogo=='designedfordavisvp2'){echo 'davishardware1';}else if($bottomlogo=='designedfordavisenvoy8x'){echo 'designedfordavisenvoy8x';}else echo 'davisw34';?>.svg" width="70px" height="70px" alt="Davis Instruments" title="Davis Instruments" class="davishardwaresvg" >
+                                        <img src="" >
                                     </div>
                                 </div>
                             </a>
                         </li>
                         
                         <li>
-                            <a href="https://wiki.meteobridge.com/wiki/index.php/Home" target="_blank" title="https://wiki.meteobridge.com/wiki/index.php/Home">
+                            <a href="weewx.com" target="_blank" title="weewx.com">
                                 <div class="collection">
                                     <div class="collection:icon">
                                      <svg id="i-options" viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
@@ -63,15 +63,15 @@
 </svg>
                                     </div>
                                     <div class="collection:data">
-                                        <h3>Interface <blue> Meteobridge</blue></h3>
+                                        <h3>Interface <blue> WeeWX</blue></h3>
                                         <span>Type:<?php echo $mbplatform?> </span>
-                                       <img src="img/nano.svg" width="60px" height="60px" class="nanohardwaresvg" alt="weather34 Meteobridge NANOSD" title="weather34 Meteobridge NANOSD">
+                                       <img src="">
                                     </div>
                                 </div>
                             </a>
                         </li>
                         <li>
-                            <a href="https://weather34.com/homeweatherstation" alt="weather34 Meteobridge Template Download" title="weather34 Meteobridge Template Download" target="_blank">
+                            <a href="https://github.com/steepleian/weewx-Weather34" alt="weewx-Weather34 skin Download" title="weewx-Weather34 skin Download" target="_blank">
                                 <div class="collection">
                                     <div class="collection:icon">
                                         
@@ -86,8 +86,8 @@
     
                                     </div>
                                     <div class="collection:data">
-                                        <h3>Template Download <blue>Meteobridge</blue> </h3>
-                                        <a href="https://github.com/lightmaster/Meteobridge-Weather34-Template" alt="weather34 Meteobridge Template Download" title="weather34 Meteobridge Template Download" target="_blank">https://github.com/lightmaster/Meteobridge-Weather34-Template</a>
+                                        <h3>Skin Download <blue>WeeWX</blue> </h3>
+                                        <a href="https://github.com/steepleian/weewx-Weather34" alt="https://github.com/steepleian/weewx-Weather34" title="weewx-Weather34 skin Download" target="_blank">https://github.com/steepleian/weewx-Weather34</a>
                                     </div>
                                 </div>
                             </a>
