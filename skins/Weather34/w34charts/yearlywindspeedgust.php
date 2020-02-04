@@ -15,7 +15,7 @@
 	#   http://www.weather34.com 	                                                                   #
 	####################################################################################################
 
-	include('chartslivedata.php');include('./chart_theme.php');header('Content-type: text/html; charset=utf-8');
+	include('../w34CombinedData.php');include('./chart_theme.php');header('Content-type: text/html; charset=utf-8');
 	$weatherfile = date('Y');
 
 

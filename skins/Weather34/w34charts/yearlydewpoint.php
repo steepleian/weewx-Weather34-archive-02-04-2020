@@ -14,7 +14,7 @@
 	# 	                                                                                               #
 	#   https://www.weather34.com 	                                                                   #
 	####################################################################################################
-	include('./chart_theme.php');header('Content-type: text/html; charset=utf-8');
+	include('./chart_theme.php');include('../w34CombinedData.php');header('Content-type: text/html; charset=utf-8');
 	$weatherfile = date('Y');
 
 	if ($tempunit == 'F') {

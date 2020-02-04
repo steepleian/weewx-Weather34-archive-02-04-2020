@@ -15,7 +15,7 @@
 	#   http://www.weather34.com 	                                                                   #
 	####################################################################################################
 
-	include('./chart_theme.php');header('Content-type: text/html; charset=utf-8');
+	include('./chart_theme.php');include('../w34CombinedData.php');header('Content-type: text/html; charset=utf-8');
 	$weatherfile = date('mY');
 		echo '
 <!doctype html public "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">

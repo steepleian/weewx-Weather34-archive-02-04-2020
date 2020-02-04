@@ -15,7 +15,7 @@
 	#   http://www.weather34.com 	                                                                   #
 	####################################################################################################
 
-	include('./chart_theme.php');header('Content-type: text/html; charset=utf-8');
+	include('./chart_theme.php');include('../w34CombinedData.php');header('Content-type: text/html; charset=utf-8');
 
 	$conv = 1;
 	if ($pressureunit == 'mb' || $pressureunit == 'hPa') {
