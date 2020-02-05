@@ -111,8 +111,8 @@ else if ($weather["wind_units"] == 'km/h' && $darkskyunit=='si') {$windspeedconv
 else if ($weather["wind_units"] == 'm/s' && $darkskyunit=='si') {$windspeedconversion = 1;}
 //ca wind is m/s
 if ($weather["wind_units"] == 'mph' && $darkskyunit=='ca') {$windspeedconversion = 2.23694;} 
-else if ($weather["wind_units"] == 'km/h' && $darkskyunit=='ca') {$windspeedconversion = 3.6;} 
-else if ($weather["wind_units"] == 'm/s' && $darkskyunit=='ca') {$windspeedconversion = 1;} 
+else if ($weather["wind_units"] == 'km/h' && $darkskyunit=='ca') {$windspeedconversion = 1;} 
+else if ($weather["wind_units"] == 'm/s' && $darkskyunit=='ca') {$windspeedconversion = 3.6;} 
 //us wind is mph
 if ($weather["wind_units"] == 'mph' && $darkskyunit=='us') {$windspeedconversion =1;} 
 else if ($weather["wind_units"] == 'km/h' && $darkskyunit=='us') {$windspeedconversion = 1.6093466682922179523;} 
