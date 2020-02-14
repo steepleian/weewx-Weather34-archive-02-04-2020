@@ -1,25 +1,6 @@
 <?php //original weather34 script original css/svg/php by weather34 2015-2019 // 
  include('w34CombinedData.php');date_default_timezone_set($TZ);
-$json_string = file_get_contents("jsondata/darksky.txt");
-$parsed_json = json_decode($json_string);
-$alerttype = $parsed_json->{'alerts'}[0]->{"title"};
-$type = explode(" ", $alerttype);
-$alertlevel = $type[0];
-if (empty($alertlevel)) {$meteoalert = "transparent";}
-else if ($alertlevel = "yellow") {$meteoalert = "yellow";}
-else if ($alertlevel = "orange") {$meteoalert = "orange";}
-else if ($alertlevel = "red") {$meteoalert = "red";}
-//$meteoalert = "transparent";
-//$meteoalert = "yellow";
-//$meteoalert = "orange";
-//$meteoalert = "red";
-$alerttype = $type[1];
-$alerttime = $parsed_json->{'alerts'}[0]->{"expires"};
-
-$alertexp = date('H:i d M',$alerttime);
-$alertiss = $parsed_json->{'alerts'}[0]->{"time"};
-
-$alertissued = date('H:i d M',$alertiss);?>
+?>
 <?php header('Content-type: text/html; charset=utf-8');error_reporting(0);
 function downloadfromgit($filename) {
     if (!is_readable($filename) || filesize($filename) < 100) {
