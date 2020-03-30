@@ -63,8 +63,7 @@ include_once('w34CombinedData.php');include_once('common.php');include_once('set
 <!DOCTYPE html>
 <html>
 <head>
-<title><?php echo $stationlocation; ?> Weather Station</title>
-<meta http-equiv="refresh" content="300">  
+<title><?php echo $stationlocation; ?> Weather Station</title> 
 <meta content="Home weather station providing current weather conditions for <?php echo $stationlocation;?>" name="description">
 <!--Google / Search Engine Tags -->
 <meta itemprop="name" content="Home Weather Station <?php echo $stationlocation;?>">
